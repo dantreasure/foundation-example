@@ -1,17 +1,51 @@
-/*For Testing*/
- *:not(body):not(html){
- 	box-sizing:border-box;
- 	border:1px dashed #000;
- }
+/*
+*:not(body):not(html){
+	box-sizing:border-box;
+	border:1px dashed #000;
+}
+*/
+.columns{
+	min-height: 100px;
+}
 
- .columns{
- 	min-height: 100px;
- }
+.button{
+	margin-top: .7rem;
+}
 
-/*End for Testing*/
-header#site-header{
-	margin-bottom: 20px;
-	padding:20px;
+.mobile-nav{
+	text-align:center;
+}
+.mobile-nav ul {
+	display: inline-block !important;
+}
+
+#main-logo {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+#main-logo a {
+	color: #7adf7a;
+}
+
+.side-nav li {
+	border-top: 1px solid #eee;
+	margin-bottom: 0px;
+}
+
+.side-nav > li > a{
+	padding-left:0rem !important;
+}
+
+ul.social{
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+}
+ul.social a{
+	color: #9cb3ba;;
+}
+ul.social a:hover{
+	color: #708f99;
 }
 
 .wrapper{
